@@ -29,7 +29,7 @@ if (isset($_SESSION['cart'])) {
     <!-- แถบเมนูนำทาง -->
     <?php include 'includes/navbar.php'; ?>
 
-    <!-- แสดงข้อความแจ้งเตือน (Alert Messages) -->
+    <!-- แสดงข้อความแจ้งเตือน (Alert Messages)555555555 -->
     <?php if (isset($_GET['message'])): ?>
         <div class="container mt-3">
             <div class="alert alert-<?= ($_GET['status'] ?? 'info') ?> alert-dismissible fade show" role="alert">
